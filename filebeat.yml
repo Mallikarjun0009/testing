@@ -1,0 +1,35 @@
+# ============================== Filebeat inputs ===============================
+
+filebeat.inputs:
+
+# filestream is an input for collecting log messages from files.
+- type: filestream
+  id: tacacs
+  enabled: true
+  paths:
+   - /data/legacy_sundyne/Nov/*/*/Sundyne_TACACS_Arvada-*/*
+  fields:
+    clientid: "defc0264"
+    log_type: "tacacs"
+  max_bytes: 40485760
+
+# ============================== Filebeat modules ==============================
+
+filebeat.config.modules:
+  # Glob pattern for configuration loading
+  path: ${path.config}/modules.d/*.yml
+
+  # Set to true to enable config reloading
+  reload.enabled: false
+
+  # Period on which files under path should be checked for changes
+  #reload.period: 10s
+
+
+
+
+# ------------------------------ Logstash Output -------------------------------
+output.logstash:
+  # The Logstash hosts
+  hosts: ["127.0.0.1:12461"]
+
