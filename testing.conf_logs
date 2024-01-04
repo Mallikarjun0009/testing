@@ -1,0 +1,222 @@
+<189>4481: Feb 27 21:51:56 UTC: %25LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/27, changed state to down
+<187>4482: Feb 27 21:51:57 UTC: %25LINK-3-UPDOWN: Interface GigabitEthernet2/0/27, changed state to down
+<187>4483: Feb 27 21:52:09 UTC: %25LINK-3-UPDOWN: Interface GigabitEthernet2/0/27, changed state to up
+<189>4484: Feb 27 21:52:10 UTC: %25LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/27, changed state to up
+<189>4485: Feb 27 21:54:27 UTC: %25LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/27, changed state to down
+<187>4486: Feb 27 21:54:28 UTC: %25LINK-3-UPDOWN: Interface GigabitEthernet2/0/27, changed state to down
+<189>4487: Feb 27 21:54:32 UTC: %25LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet2/0/27, changed state to up
+<187>4488: Feb 27 21:54:34 UTC: %25LINK-3-UPDOWN: Interface GigabitEthernet2/0/27, changed state to up
+[blusapphire@prod1-us-gc-sd-legacy Sundyne_Switch_Longvic-10.5.20.7]$ cd ..
+[blusapphire@prod1-us-gc-sd-legacy 23h]$ cd Sundyne_FW_Arvada-10.2.50.2
+[blusapphire@prod1-us-gc-sd-legacy Sundyne_FW_Arvada-10.2.50.2]$ ls
+20230227220122000000  20230227221052000001  20230227222123000002  20230227223050000003  20230227224122000004  20230227225050000005
+[blusapphire@prod1-us-gc-sd-legacy Sundyne_FW_Arvada-10.2.50.2]$ cat 20230227220122000000 
+<166>Feb 27 2023 21:49:32: %25ASA-6-113004: AAA user authentication Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:49:32: %25ASA-6-113004: AAA user authorization Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:49:32: %25ASA-6-113008: AAA transaction status ACCEPT : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:49:32: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:49:32: %25ASA-6-113004: AAA user authentication Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:49:32: %25ASA-6-113004: AAA user authorization Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:49:32: %25ASA-6-113008: AAA transaction status ACCEPT : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:49:32: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:49:32: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:49:32: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:49:32: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:50:23: %25ASA-6-113004: AAA user authentication Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:50:23: %25ASA-6-113004: AAA user authorization Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:50:23: %25ASA-6-113008: AAA transaction status ACCEPT : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:50:23: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:50:41: %25ASA-6-113004: AAA user authentication Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:50:41: %25ASA-6-113004: AAA user authorization Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:50:41: %25ASA-6-113008: AAA transaction status ACCEPT : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:50:41: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:50:41: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:50:41: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:50:41: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:50:41: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:50:41: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:50:41: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:50:41: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:50:41: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:50:50: %25ASA-6-113004: AAA user authentication Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:50:50: %25ASA-6-113004: AAA user authorization Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:50:50: %25ASA-6-113008: AAA transaction status ACCEPT : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:50:50: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:50:50: %25ASA-6-113004: AAA user authentication Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:50:50: %25ASA-6-113004: AAA user authorization Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:50:50: %25ASA-6-113008: AAA transaction status ACCEPT : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:50:50: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:50:50: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:50:50: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:50:50: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:51:32: %25ASA-6-113004: AAA user authentication Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:51:32: %25ASA-6-113004: AAA user authorization Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:51:32: %25ASA-6-113008: AAA transaction status ACCEPT : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:51:32: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:51:33: %25ASA-6-725001: Starting SSL handshake with client outside:192.241.206.100/35310 to 159.63.163.2/443 for TLS session%0A
+<167>Feb 27 2023 21:51:33: %25ASA-7-725014: SSL lib error. Function: SSL23_GET_CLIENT_HELLO Reason: unknown protocol%0A
+<166>Feb 27 2023 21:51:33: %25ASA-6-725006: Device failed SSL handshake with client outside:192.241.206.100/35310 to 159.63.163.2/443%0A
+<166>Feb 27 2023 21:51:36: %25ASA-6-113004: AAA user authentication Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:51:36: %25ASA-6-113004: AAA user authorization Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:51:36: %25ASA-6-113008: AAA transaction status ACCEPT : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:51:36: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:51:36: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:51:36: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:51:36: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<167>Feb 27 2023 21:51:36: %25ASA-7-713906: Group = 129.146.12.53, IP = 129.146.12.53, Add to IKEv1 Tunnel Table succeeded for SA with logical ID 756178944%0A
+<167>Feb 27 2023 21:51:36: %25ASA-7-713906: Group = 129.146.12.53, IP = 129.146.12.53, Add to IKEv1 MIB Table succeeded for SA with logical ID 756178944%0A
+<167>Feb 27 2023 21:51:36: %25ASA-7-713906: Group = 129.146.12.53, IP = 129.146.12.53, IKE SA MM:63a4ef92 rcv'd Terminate: state MM_STANDBY  flags 0x00010042, refcnt 1, tuncnt 0%0A
+<167>Feb 27 2023 21:51:36: %25ASA-7-713906: Group = 129.146.12.53, IP = 129.146.12.53, Remove from IKEv1 Tunnel Table succeeded for SA with logicalId 756178944%0A
+<167>Feb 27 2023 21:51:36: %25ASA-7-713906: Group = 129.146.12.53, IP = 129.146.12.53, Remove from IKEv1 MIB Table succeeded for SA with logical ID 756178944%0A
+<167>Feb 27 2023 21:51:36: %25ASA-7-713906: Group = 129.146.12.53, IP = 129.146.12.53, IKE SA MM:63a4ef92 terminating:  flags 0x01010002, refcnt 0, tuncnt 0%0A
+<167>Feb 27 2023 21:51:36: %25ASA-7-713906: Group = 129.146.12.53, IP = 129.146.12.53, sending delete/delete with reason message%0A
+<167>Feb 27 2023 21:51:36: %25ASA-7-715046: Group = 129.146.12.53, IP = 129.146.12.53, constructing blank hash payload%0A
+<167>Feb 27 2023 21:51:36: %25ASA-7-715046: Group = 129.146.12.53, IP = 129.146.12.53, constructing IKE delete payload%0A
+<167>Feb 27 2023 21:51:36: %25ASA-7-715046: Group = 129.146.12.53, IP = 129.146.12.53, constructing qm hash payload%0A
+<166>Feb 27 2023 21:51:36: %25ASA-6-713235: Group = 129.146.12.53, IP = 129.146.12.53, Attempt to send an IKE packet from standby unit. Dropping the packet!%0A
+<165>Feb 27 2023 21:51:36: %25ASA-5-713259: Group = 129.146.12.53, IP = 129.146.12.53, Session is being torn down. Reason: crypto map policy not found%0A
+<164>Feb 27 2023 21:51:36: %25ASA-4-113019: Group = 129.146.12.53, Username = 129.146.12.53, IP = 129.146.12.53, Session disconnected. Session Type: LAN-to-LAN, Duration: 0h:00m:01s, Bytes xmt: 0, Bytes rcv: 0, Reason: crypto map policy not found%0A
+<167>Feb 27 2023 21:51:36: %25ASA-7-713906: Ignoring msg to mark SA with dsID 756178944 dead because SA deleted%0A
+<166>Feb 27 2023 21:52:33: %25ASA-6-113004: AAA user authentication Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:52:33: %25ASA-6-113004: AAA user authorization Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:52:33: %25ASA-6-113008: AAA transaction status ACCEPT : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:52:33: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:52:38: %25ASA-6-113004: AAA user authentication Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:52:38: %25ASA-6-113004: AAA user authorization Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:52:38: %25ASA-6-113008: AAA transaction status ACCEPT : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:52:38: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:52:38: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:52:38: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:52:38: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:52:38: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:52:38: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:52:38: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:52:38: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:52:38: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<167>Feb 27 2023 21:53:11: %25ASA-7-716002: Group <GroupPolicy_RemoteAccess_AlwaysOn> User <wagner.ragazzo> IP <177.140.167.160> WebVPN session terminated: Idle Timeout.%0A
+<164>Feb 27 2023 21:53:11: %25ASA-4-113019: Group = Arvada_SSLVPN_RemoteAccess, Username = wagner.ragazzo, IP = 177.140.167.160, Session disconnected. Session Type: AnyConnect-Parent, Duration: 9h:10m:32s, Bytes xmt: 12326273, Bytes rcv: 24088076, Reason: Idle Timeout%0A
+<167>Feb 27 2023 21:53:11: %25ASA-7-716002: Group <GroupPolicy_RemoteAccess_AlwaysOn> User <meredith.hagen> IP <119.17.59.36> WebVPN session terminated: Idle Timeout.%0A
+<164>Feb 27 2023 21:53:11: %25ASA-4-113019: Group = Arvada_SSLVPN_RemoteAccess, Username = meredith.hagen, IP = 119.17.59.36, Session disconnected. Session Type: AnyConnect-Parent, Duration: 1h:37m:33s, Bytes xmt: 2592370, Bytes rcv: 4823076, Reason: Idle Timeout%0A
+<166>Feb 27 2023 21:53:32: %25ASA-6-113004: AAA user authentication Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:53:32: %25ASA-6-113004: AAA user authorization Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:53:32: %25ASA-6-113008: AAA transaction status ACCEPT : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:53:32: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:53:32: %25ASA-6-113004: AAA user authentication Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:53:32: %25ASA-6-113004: AAA user authorization Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:53:32: %25ASA-6-113008: AAA transaction status ACCEPT : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:53:32: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:53:32: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:53:32: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:53:32: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:53:53: %25ASA-6-113004: AAA user authentication Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:53:53: %25ASA-6-113004: AAA user authorization Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:53:53: %25ASA-6-113008: AAA transaction status ACCEPT : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:53:53: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:54:08: %25ASA-6-113004: AAA user authentication Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:54:08: %25ASA-6-113004: AAA user authorization Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:54:08: %25ASA-6-113008: AAA transaction status ACCEPT : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:54:08: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:54:08: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:54:08: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:54:08: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:54:08: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:54:08: %25ASA-6-113004: AAA user authentication Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:54:08: %25ASA-6-113004: AAA user authorization Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:54:08: %25ASA-6-113008: AAA transaction status ACCEPT : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:54:08: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:54:41: %25ASA-6-113004: AAA user authentication Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:54:41: %25ASA-6-113004: AAA user authorization Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:54:41: %25ASA-6-113008: AAA transaction status ACCEPT : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:54:41: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:54:41: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:54:41: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:54:41: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:54:41: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:54:41: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:54:41: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:54:41: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:54:41: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<167>Feb 27 2023 21:55:03: %25ASA-7-713906: Group = 129.146.12.53, IP = 129.146.12.53, Add to IKEv1 Tunnel Table succeeded for SA with logical ID 756187136%0A
+<167>Feb 27 2023 21:55:03: %25ASA-7-713906: Group = 129.146.12.53, IP = 129.146.12.53, Add to IKEv1 MIB Table succeeded for SA with logical ID 756187136%0A
+<167>Feb 27 2023 21:55:03: %25ASA-7-713906: Group = 129.146.12.53, IP = 129.146.12.53, IKE SA MM:2ba40c0e rcv'd Terminate: state MM_STANDBY  flags 0x00010042, refcnt 1, tuncnt 0%0A
+<167>Feb 27 2023 21:55:03: %25ASA-7-713906: Group = 129.146.12.53, IP = 129.146.12.53, Remove from IKEv1 Tunnel Table succeeded for SA with logicalId 756187136%0A
+<167>Feb 27 2023 21:55:03: %25ASA-7-713906: Group = 129.146.12.53, IP = 129.146.12.53, Remove from IKEv1 MIB Table succeeded for SA with logical ID 756187136%0A
+<167>Feb 27 2023 21:55:03: %25ASA-7-713906: Group = 129.146.12.53, IP = 129.146.12.53, IKE SA MM:2ba40c0e terminating:  flags 0x01010002, refcnt 0, tuncnt 0%0A
+<167>Feb 27 2023 21:55:03: %25ASA-7-713906: Group = 129.146.12.53, IP = 129.146.12.53, sending delete/delete with reason message%0A
+<167>Feb 27 2023 21:55:03: %25ASA-7-715046: Group = 129.146.12.53, IP = 129.146.12.53, constructing blank hash payload%0A
+<167>Feb 27 2023 21:55:03: %25ASA-7-715046: Group = 129.146.12.53, IP = 129.146.12.53, constructing IKE delete payload%0A
+<167>Feb 27 2023 21:55:03: %25ASA-7-715046: Group = 129.146.12.53, IP = 129.146.12.53, constructing qm hash payload%0A
+<166>Feb 27 2023 21:55:03: %25ASA-6-713235: Group = 129.146.12.53, IP = 129.146.12.53, Attempt to send an IKE packet from standby unit. Dropping the packet!%0A
+<165>Feb 27 2023 21:55:03: %25ASA-5-713259: Group = 129.146.12.53, IP = 129.146.12.53, Session is being torn down. Reason: crypto map policy not found%0A
+<164>Feb 27 2023 21:55:03: %25ASA-4-113019: Group = 129.146.12.53, Username = 129.146.12.53, IP = 129.146.12.53, Session disconnected. Session Type: LAN-to-LAN, Duration: 0h:00m:00s, Bytes xmt: 0, Bytes rcv: 0, Reason: crypto map policy not found%0A
+<167>Feb 27 2023 21:55:03: %25ASA-7-713906: Ignoring msg to mark SA with dsID 756187136 dead because SA deleted%0A
+<166>Feb 27 2023 21:55:03: %25ASA-6-113004: AAA user authentication Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:55:03: %25ASA-6-113004: AAA user authorization Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:55:03: %25ASA-6-113008: AAA transaction status ACCEPT : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:55:03: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:55:03: %25ASA-6-113004: AAA user authentication Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:55:03: %25ASA-6-113004: AAA user authorization Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:55:03: %25ASA-6-113008: AAA transaction status ACCEPT : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:55:03: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:55:03: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:55:03: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:55:03: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:56:13: %25ASA-6-113004: AAA user authentication Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:56:13: %25ASA-6-113004: AAA user authorization Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:56:13: %25ASA-6-113008: AAA transaction status ACCEPT : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:56:13: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:56:13: %25ASA-6-113004: AAA user authentication Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:56:13: %25ASA-6-113004: AAA user authorization Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:56:13: %25ASA-6-113008: AAA transaction status ACCEPT : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:56:13: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:56:13: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:56:13: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:56:13: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:56:13: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:56:13: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:56:13: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:56:13: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:56:13: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:57:23: %25ASA-6-113004: AAA user authentication Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:57:23: %25ASA-6-113004: AAA user authorization Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:57:23: %25ASA-6-113008: AAA transaction status ACCEPT : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:57:23: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:57:36: %25ASA-6-113004: AAA user authentication Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:57:36: %25ASA-6-113004: AAA user authorization Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:57:36: %25ASA-6-113008: AAA transaction status ACCEPT : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:57:36: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:57:36: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:57:36: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:57:36: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<167>Feb 27 2023 21:58:33: %25ASA-7-713906: Group = 129.146.12.53, IP = 129.146.12.53, Add to IKEv1 Tunnel Table succeeded for SA with logical ID 756199424%0A
+<167>Feb 27 2023 21:58:33: %25ASA-7-713906: Group = 129.146.12.53, IP = 129.146.12.53, Add to IKEv1 MIB Table succeeded for SA with logical ID 756199424%0A
+<167>Feb 27 2023 21:58:33: %25ASA-7-713906: Group = 129.146.12.53, IP = 129.146.12.53, IKE SA MM:34e4ccec rcv'd Terminate: state MM_STANDBY  flags 0x00010042, refcnt 1, tuncnt 0%0A
+<167>Feb 27 2023 21:58:33: %25ASA-7-713906: Group = 129.146.12.53, IP = 129.146.12.53, Remove from IKEv1 Tunnel Table succeeded for SA with logicalId 756199424%0A
+<167>Feb 27 2023 21:58:33: %25ASA-7-713906: Group = 129.146.12.53, IP = 129.146.12.53, Remove from IKEv1 MIB Table succeeded for SA with logical ID 756199424%0A
+<167>Feb 27 2023 21:58:33: %25ASA-7-713906: Group = 129.146.12.53, IP = 129.146.12.53, IKE SA MM:34e4ccec terminating:  flags 0x01010002, refcnt 0, tuncnt 0%0A
+<167>Feb 27 2023 21:58:33: %25ASA-7-713906: Group = 129.146.12.53, IP = 129.146.12.53, sending delete/delete with reason message%0A
+<167>Feb 27 2023 21:58:33: %25ASA-7-715046: Group = 129.146.12.53, IP = 129.146.12.53, constructing blank hash payload%0A
+<167>Feb 27 2023 21:58:33: %25ASA-7-715046: Group = 129.146.12.53, IP = 129.146.12.53, constructing IKE delete payload%0A
+<167>Feb 27 2023 21:58:33: %25ASA-7-715046: Group = 129.146.12.53, IP = 129.146.12.53, constructing qm hash payload%0A
+<166>Feb 27 2023 21:58:33: %25ASA-6-713235: Group = 129.146.12.53, IP = 129.146.12.53, Attempt to send an IKE packet from standby unit. Dropping the packet!%0A
+<165>Feb 27 2023 21:58:33: %25ASA-5-713259: Group = 129.146.12.53, IP = 129.146.12.53, Session is being torn down. Reason: crypto map policy not found%0A
+<164>Feb 27 2023 21:58:33: %25ASA-4-113019: Group = 129.146.12.53, Username = 129.146.12.53, IP = 129.146.12.53, Session disconnected. Session Type: LAN-to-LAN, Duration: 0h:00m:00s, Bytes xmt: 0, Bytes rcv: 0, Reason: crypto map policy not found%0A
+<167>Feb 27 2023 21:58:33: %25ASA-7-713906: Ignoring msg to mark SA with dsID 756199424 dead because SA deleted%0A
+<166>Feb 27 2023 21:58:33: %25ASA-6-113004: AAA user authentication Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:58:33: %25ASA-6-113004: AAA user authorization Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:58:33: %25ASA-6-113008: AAA transaction status ACCEPT : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:58:33: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<167>Feb 27 2023 21:58:41: %25ASA-7-716002: Group <GroupPolicy_RemoteAccess_OnDemand> User <Abhishek.Kumar> IP <223.228.242.104> WebVPN session terminated: Idle Timeout.%0A
+<164>Feb 27 2023 21:58:41: %25ASA-4-113019: Group = Arvada_SSLVPN_RemoteAccess, Username = Abhishek.Kumar, IP = 223.228.242.104, Session disconnected. Session Type: AnyConnect-Parent, Duration: 1h:00m:03s, Bytes xmt: 2350485, Bytes rcv: 870386, Reason: Idle Timeout%0A
+<166>Feb 27 2023 21:58:41: %25ASA-6-113004: AAA user authentication Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:58:41: %25ASA-6-113004: AAA user authorization Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:58:41: %25ASA-6-113008: AAA transaction status ACCEPT : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:58:41: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:58:41: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:58:41: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:58:41: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:58:41: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:58:41: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:58:41: %25ASA-6-113016: AAA credentials rejected : reason = Unspecified : server = 10.2.59.2 : user = S-US-SolarWindNCMuse : user IP = 10.61.112.66%0A
+<166>Feb 27 2023 21:58:41: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
+<166>Feb 27 2023 21:58:41: %25ASA-6-113004: AAA user accounting Successful : server =  10.2.59.2 : user = S-US-SolarWindNCMuse%0A
